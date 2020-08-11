@@ -1,0 +1,9 @@
+Dear ${PERSON_NAME},
+
+Thank you for using Music Room Booking System.
+
+Your UNIQUE USER ID: ${USER_ID}
+
+Now you can log in to the system and make your first booking!
+
+Note: this is an automated email, so please do not reply to this address.

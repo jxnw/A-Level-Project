@@ -1,0 +1,9 @@
+Hi ${PERSON_NAME},
+
+Thank you for using Music Room Booking System.
+Your Booking ID: ${REC_ID}
+Room ID: ${ROOM_ID}
+Date: ${DATE}
+Period: ${PERIOD}
+
+Note: this is an automated email, so please do not reply to this address.

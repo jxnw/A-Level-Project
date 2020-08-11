@@ -1,0 +1,14 @@
+Hi ${PERSON_NAME},
+
+Unfortunately, the following booking made by you has been cancelled.
+
+	Booking ID: ${REC_ID}
+	Room ID: ${ROOM_ID}
+	Date: ${DATE}
+	Period: ${PERIOD}
+
+This is because an instrumental lesson is scheduled in that room.
+The instrumental teacher: ${TEACHER}
+If you wish to make another booking, please log in to the music room booking system.
+
+Note: this is an automated email, so please do not reply to this address.
