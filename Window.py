@@ -947,11 +947,7 @@ def initialise():
         ''')
 
         staffs = [0, 'musiclovers.qe@gmail.com', 'music']
-        # students = [1, 'Wang', 'Jiaxin', '5CFR', 'abc', '123']
         cursor.execute("INSERT OR IGNORE INTO tblUsers(userID, email, password) VALUES (?,?,?)", staffs)
-        # cursor.execute(
-        #     "INSERT OR IGNORE INTO tblUsers(userID, surname, name, form, email, password) VALUES (?,?,?,?,?,?)",
-        #     students)
 
         rooms = [(1, 0, True, False),
                  (2, 0, True, False),
@@ -998,7 +994,7 @@ def send_email(email, name, welcome=False, confirm=False, cancel=False,
         If cancel=True, send a cancellation email."""
 
     my_address = "musiclovers.qe@gmail.com"
-    my_password = "Ilovemusic1124"
+    my_password = "..."
 
     # Break for testing
     if not validate_email(email):
